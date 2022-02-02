@@ -1,0 +1,112 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+
+h1 { 
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: #ddc6be
+
+}
+
+nav { 
+    display:flex;}
+
+/*sacar estilos a las listas */
+nav ul li {
+    list-style-type: none;
+    display: inline-block
+}
+
+title { 
+     font-size: 30px;
+    padding: 20px 20px 20px 20px;
+}
+
+a { 
+    text-decoration: none;
+    color: black;
+    font-size: 35px; 
+	background-color: whitesmoke;
+	padding-top: 0px;
+	margin-top: 0px;
+    border: solid 3px #ddc6be;
+}
+h2 {
+	padding: 5px; 
+	font-size: 30px;
+    color: #a69895;
+    text-align: center;
+    background-color: #ddc6be;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+body {
+    background-color: #f3efec
+ ;
+}   
+.contenedorServicio{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:solid 1px black;
+    width: 20%;
+    margin: 20px;
+    border-radius: 4%;
+}
+.servicio h4{
+    font-size: 20px;
+    }
+    
+.servicio img{
+    width: 100%;
+    }
+
+.servicio p{
+    font-size: 15px;
+    padding: 5px;
+        }
+
+.servicio button{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5%;
+    background-color: #ddc6be;
+    color:white;
+        }
+p {
+   margin: 30px;
+    font-family: 'Times New Roman', Times, serif;  
+	font-size: 20px; 
+	font-weight: bold; 
+	font-style: italic; 
+}
+
+img{
+    width: 100%;
+    height: 250px;
+    margin: 20px;
+}
+footer {
+    background-color: #ddc6be;
+    text-align: center;
+}
+
+.formulario   {
+    background-color: #f3efec;
+    color: black;
+ }  
+
