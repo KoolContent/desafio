@@ -13,11 +13,16 @@ h1 {
 
 }
 
+h2 { 
+    background-image: linear-gradient(to right red, yellow,);}
+
 nav { 
     display:flex;}
 
 /*sacar estilos a las listas */
-nav ul li {
+nav ul li :hover{ 
+    transform: scale(1.1);
+    background-color: burlywood;
     list-style-type: none;
     display: inline-block
 }
@@ -36,16 +41,16 @@ a {
 	margin-top: 0px;
     border: solid 3px #ddc6be;
 }
+
+
+
 h2 {
 	padding: 5px; 
 	font-size: 30px;
     color: #a69895;
     text-align: center;
     background-color: #ddc6be;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite;
-}
+    }
 
 body {
     background-color: #f3efec
